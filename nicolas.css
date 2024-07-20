@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+#fundo{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    }  
+    #fundo video {
+       width: 100%;
+       height: 100%;
+       object-fit: cover ;
+    }
+
+        #fundo::after {
+           
+            content: '';
+            width:max-content ;
+            height: initial;
+             position: fixed;
+            inset: 0;
+            background: linear-gradient(109deg,rgba(10, 12, 16, 0.7) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85% );
+        }
+
+.txt{
+  
+    color: aliceblue;
+    z-index: 3;
+}
+
+h1{
+    font-family: sans-serif;
+    top: 360px;
+    position: absolute;
+    z-index: 3;
+    font-size: 15px;
+    right: 80px;
+
+}
+e{
+    color:#8E7133;
+}
+h2{
+
+    color: #8E7133;
+    font-family: sans-serif;
+    top: 305px;
+    position: absolute;
+    z-index: 3;
+    font-size: 23px;
+    right: 305px;
+
+}
+.logo img{
+    width: 90px;
+    top: 20px;
+    z-index: 2;
+    position: absolute;
+    position: absolute;
+  
+}
+
+.boloa2 {
+    top: 72px;
+    right: 88px;
+    position: absolute;
+    filter: blur(10.1rem);
+    height: 636px;
+    width: 178px;
+    border-radius: 100%;
+    background: linear-gradient(109deg, #8E7133 15%, #8E7133 50%,#8E7133 85% );
+}
+
+    .boloa {
+        z-index: 2;
+        top: 4px;
+        left: -133px;
+        position: absolute;
+        filter: blur(3.1rem);
+        height: 719px;
+        width: 300px;
+        border-radius: 100%;
+        background: linear-gradient(100deg,rgba(10, 12, 16, 0.7) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85% );
+    }
+
+.boloa3 {
+    top: -5px;
+    right: 640px;
+    position: absolute;
+    filter: blur(1.5rem);
+    height: 115px;
+    width: 115px;
+    border-radius: 100%;
+    background: linear-gradient(100deg, #8E7133 15%, #8E7133 50%, #8E7133 85% );
+}
+
+    
+        .jgd {
+            height: 610px;
+            left: -56px;
+            z-index: 1;
+            position: absolute;
+            top: 154px;
+            width: 377px;
+        }
+
+
+@media (max-width: 880px) {
+      .logo{
+        position: absolute;
+    top: 11px;
+    left: 75px;
+    width: 100px;
+      }
+
+      .jgd {
+        top: 442px;
+        left: 35px;
+        position: absolute;
+        width: 198px;
+        height: 399px;
+    }
+    .boloa {
+        top: 193px;
+        z-index: 3;
+        left: -99px;
+        position: absolute;
+        filter: blur(3.1rem);
+        height: 627px;
+        width: 300px;
+        border-radius: 100%;
+    }
+    h1 {
+        font-family: sans-serif;
+        top: 178px;
+        position: absolute;
+        z-index: 3;
+        font-size: 9px;
+        left: 21px;
+    }
+    h2 {
+       
+        font-family: sans-serif;
+        top: 142px;
+        position: absolute;
+        z-index: 3;
+        font-size: 14px;
+        right: 149px;
+        font-weight: 900;
+    }
+    #fundo video {
+        width: 100%;
+        height: 104%;
+        object-fit: cover;
+    }
+    #fundo::after {
+        content: '';
+        width:max-content ;
+        height: initial;
+        position: fixed;
+        inset: 0;
+    
+}
+    .boloa2{
+        top: 460px;
+        left: 79px;
+        position: absolute;
+        filter: blur(10.1rem);
+        height: 374px;
+        width: 250px;
+        border-radius: 100%;
+       
+    }
+    .boloa3 {
+        top: 10px;
+        left: 98px;
+        position: absolute;
+        filter: blur(1.5rem);
+        height: 115px;
+        width: 115px;
+        border-radius: 100%;
+    
+    }
+    
+    
+    .logo img{
+        top: 21px;
+  position: absolute;
+  left: 29px;
+    }
+}
